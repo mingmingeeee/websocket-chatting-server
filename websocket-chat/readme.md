@@ -12,8 +12,11 @@
 
 ## **2. WebSocket 동작 흐름**
 (1) Client -> (HTTP 요청, 핸드쉐이크 요청) -> Server
+
 (2) Server: 해당 요청에 101코드 응답, 프로토콜을 HTTP -> WebSocket으로 변경
+
 (3) Connection 완료, 양방향 통신 가능
+
 (4) Client, Server 양쪽에서 Connection 종료 가능
 
 ## **3-1. 장점**
